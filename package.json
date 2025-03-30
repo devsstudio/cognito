@@ -1,0 +1,26 @@
+{
+  "name": "@devs-studio/cognito",
+  "version": "1.0.0",
+  "description": "Classes for AWS Cognito",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npx tsc",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devsstudio/cognito.git"
+  },
+  "keywords": [
+    "cognito"
+  ],
+  "author": "Devs Studio",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.777.0"
+  }
+}
