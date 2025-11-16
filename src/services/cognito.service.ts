@@ -7,7 +7,7 @@ export class CognitoService {
 
     protected cognitoClient: CognitoIdentityProviderClient;
 
-    constructor(private readonly config: CognitoConfig = null) {
+    constructor(private readonly config: CognitoConfig | null = null) {
         this.cognitoClient = new CognitoIdentityProviderClient(config || {});
     }
 

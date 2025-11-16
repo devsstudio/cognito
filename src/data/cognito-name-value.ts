@@ -1,4 +1,4 @@
 export class CognitoNameValue {
-    Name: string;
-    Value: string;
+    Name!: string;
+    Value!: string;
 }
